@@ -1,0 +1,21 @@
+{
+    "name": "API",
+    "authors": [
+        {
+            "name": "Swaraj",
+            "email": "swarajgiri@gmail.com"
+        }
+    ],
+    "require": {
+        "league/route": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+          "API\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install"  : "dist",
+        "optimize-autoloader": true
+    }
+}
